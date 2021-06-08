@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <title>Covid Live</title>
+  </head>
+  <body onload="preloading()">
+    
+    <div id="root"></div>
+
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <script>
+      const preloading = ()=>{
+        document.querySelector('.preloader_container').style.display = "none";
+        document.querySelector('.div_wrapper').style.display ="block";
+       
+      }
+    </script>
+  </body>
+</html>
